@@ -51,7 +51,7 @@ const documentPublished = (info) => {
 
 const apoyoValidacion = (info) => {
   const template = buildTemplate('apoyo-validacion', info)
-  execute(info.user.email, '¡Último paso para apoyar el proyecto de Leyes Abiertas!', template)
+  execute(info.user.email, '¡Último paso para apoyar el proyecto de Colectiva!', template)
 }
 
 const strategies = [

@@ -1,5 +1,5 @@
 {
-  "name": "leyesabiertas-notifier",
+  "name": "colectiva-notifier",
   "version": "1.9.0",
   "description": "API Notifications",
   "main": "server.js",

@@ -29,10 +29,10 @@ Listado de cambios:
 - Ahora para monitores mas grandes-largos (2K/4K) se muestran 4 columnas de cards de proyectos en la home
 
 Compatible con:
-* `leyesabiertas-web:1.9.0`
-* `leyesabiertas-core:1.9.0`
-* `leyesabiertas-notifier:1.9.0`
-* `leyesabiertas-keycloak:1.8.0`
+* `colectiva-web:1.9.0`
+* `colectiva-core:1.9.0`
+* `colectiva-notifier:1.9.0`
+* `colectiva-keycloak:1.8.0`
 
 **1.8.0**
 
@@ -53,17 +53,17 @@ Listado de cambios hasta el momento:
 6. Se arregló un error de que en algunos navegadores, bajo ciertas condiciones, no se guardaban bien las modificaciones del perfil de usuario
 
 Compatible con:
-* `leyesabiertas-core:1.8.0`
-* `leyesabiertas-web:1.8.0`
-* `leyesabiertas-keycloak:1.8.0`
+* `colectiva-core:1.8.0`
+* `colectiva-web:1.8.0`
+* `colectiva-keycloak:1.8.0`
 
 ### 1.7.2
 
 * Corregido la URL de un avatar en el template de comment-contribution (cuando se marca un comentario como aporte)
 
 Compatible con:
-* `leyesabiertas-core:1.7.1`
-* `leyesabiertas-web:1.7.2`
+* `colectiva-core:1.7.1`
+* `colectiva-web:1.7.2`
 
 ### 1.7.1
 
@@ -73,8 +73,8 @@ Compatible con:
 * Cambiado el numero del telefono de diputados en el footer del email
 
 Compatible con:
-* `leyesabiertas-core:1.7.1`
-* `leyesabiertas-web:1.7.1`
+* `colectiva-core:1.7.1`
+* `colectiva-web:1.7.1`
 
 
 ### 1.5.0
@@ -82,8 +82,8 @@ Compatible con:
 * Se hizo un FIX sobre un ID que provocaba que en algunos casos no se enviarán algunas  notificaciones
 
 Compatible con:
-* `leyesabiertas-core:1.5.0`
-* `leyesabiertas-web:1.5.0`
+* `colectiva-core:1.5.0`
+* `colectiva-web:1.5.0`
 
 ### 1.3.0
 
@@ -92,8 +92,8 @@ Compatible con:
 * Se hizo un FIX en el saludo, donde a veces no existia nombre a quien 
 
 Compatible con:
-* `leyesabiertas-core:1.3.0`
-* `leyesabiertas-web:1.3.0`
+* `colectiva-core:1.3.0`
+* `colectiva-web:1.3.0`
 
 #### 1.1.2
 - Fixing sending of comments notifications

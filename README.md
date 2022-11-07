@@ -1,16 +1,16 @@
 ![Header](docs/header-doc.png)
 
-# Leyes Abiertas - API Notifier (Mailer)
+# Colectiva - API Notifier (Mailer)
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=DemocraciaEnRed_leyesabiertas-notifier&metric=alert_status)](https://sonarcloud.io/dashboard?id=DemocraciaEnRed_leyesabiertas-notifier)
-[![GitHub license](https://img.shields.io/github/license/DemocraciaEnRed/leyesabiertas-notifier)](https://github.com/DemocraciaEnRed/leyesabiertas-notifier/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/DemocraciaEnRed/colectiva-notifier)](https://github.com/DemocraciaEnRed/colectiva-notifier/blob/master/LICENSE)
 
-Este es uno de los tres modulos que se requieren descargar, hacer setup e instalar cada uno de los repositorios para poder utilizar Leyes Abiertas.
-Para saber mas del conjunto de modulos que compone leyes abiertas, hace [click aqui](https://github.com/DemocraciaEnRed/leyesabiertas) 
+Este es uno de los tres modulos que se requieren descargar, hacer setup e instalar cada uno de los repositorios para poder utilizar Colectiva.
+Para saber mas del conjunto de modulos que compone colectiva, hace [click aqui](https://github.com/DemocraciaEnRed/colectiva) 
 
 ---
 
-### Setup leyesabiertas-notifier
+### Setup colectiva-notifier
 
 > #### ⚠️ NOTAS IMPORTANTES
 > 
@@ -18,7 +18,7 @@ Para saber mas del conjunto de modulos que compone leyes abiertas, hace [click a
 > - Mongo3.6
 > - Keycloak 4.4.x o 6.0.x
 > 
-> Sobre Mongo3.6, es necesario que instales mongo 3.6 en tu computadora, con una base de datos llamada "leyesabiertas". No hace falta crear alguna collection, eso lo hace la app en inicio.
+> Sobre Mongo3.6, es necesario que instales mongo 3.6 en tu computadora, con una base de datos llamada "colectiva". No hace falta crear alguna collection, eso lo hace la app en inicio.
 > 
 > Keycloak es un sistema open source de identificación y gestión de acceso de usuarios. Es un sistema complejo y para fines de testing, en [Democracia en Red](https://democraciaenred.org) sabemos que la instalacion de Keycloak puede ser un bloqueo para intenciones de testing. Para eso, comunicate con nosotros y podemos ayudarte a hacer el setup y utilizar nuestro Keycloak de Democracia en Red. Envianos un correo electronico en [mailto:it@democraciaenred.org](it@democraciaenred.org) o contactanos a través de nuestro [Twitter](https://twitter.com/fundacionDER).
 
@@ -26,8 +26,8 @@ Para saber mas del conjunto de modulos que compone leyes abiertas, hace [click a
 Ir a la carpeta del repo y instalar las dependencias.
 
 ```
-dev/:$ cd leyesabiertas-notifier
-dev/leyesabiertas-notifier:$ npm install
+dev/:$ cd colectiva-notifier
+dev/colectiva-notifier:$ npm install
 ```
 
 Ahora tenemos que crear un archivo `.env` que son nuestras variables de entorno
@@ -35,7 +35,7 @@ Ahora tenemos que crear un archivo `.env` que son nuestras variables de entorno
 ```env
 PORT=5000
 MONGO_URL=mongodb://localhost
-DB_COLLECTION=leyesabiertas
+DB_COLLECTION=colectiva
 ORGANIZATION_EMAIL=##############TODO
 ORGANIZATION_NAME=###############TODO
 ORGANIZATION_API_URL=http://localhost:4000
@@ -51,7 +51,7 @@ BULK_EMAIL_CHUNK_SIZE=100-or-change-it
 Comando para ejecutar:
 
 ```
-dev/leyesabiertas-notifier:$ npm run dev
+dev/colectiva-notifier:$ npm run dev
 ```
 
 #### ℹ Simple test
