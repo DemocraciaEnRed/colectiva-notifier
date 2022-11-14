@@ -9,7 +9,7 @@ const { ORGANIZATION_NAME, ORGANIZATION_URL, ORGANIZATION_API_URL } = process.en
 
 const CommentRead = (props) => {
   return (
-    <Email title='Comentario resuelto' style={{ width: '100%', maxWidth: '700px' }}>
+    <Email title='Comentario nuevo' style={{ width: '100%', maxWidth: '700px' }}>
       <MailHeader />
       <Content name={props.author.name} style={{ width: '100%' }}>
         <Item style={Style.itemStyle}>
@@ -19,7 +19,7 @@ const CommentRead = (props) => {
         </Item>
         <Item style={Style.itemStyle}>
           <Span {...Style.defaultContentStyle}>
-          Este fue el comentario:
+          Este es el comentario:
           </Span>
         </Item>
         <Item style={Style.itemStyle}>

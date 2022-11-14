@@ -85,7 +85,7 @@ const CommentClosed = (props) => {
       <Content showName={false} style={{ width: '100%' }}>
         <Item style={Style.itemStyle}>
           <Span {...Style.defaultContentStyle}>
-            Finalizó el periodo para realizar aportes en el proyecto <b>{props.document.title}</b> en la que participó. Ingrese en <A href={ORGANIZATION_URL}>{ORGANIZATION_NAME}</A> para ver la versión final y los resultados del proceso de co-creación de normas.
+            Finalizó el periodo para realizar aportes en el proyecto <b>{props.document.title}</b> en el que participó. Ingrese en <A href={ORGANIZATION_URL}>{ORGANIZATION_NAME}</A> para ver la versión final y los resultados del proceso de co-creación de normas.
           </Span>
         </Item>
         <Item style={Style.itemStyle}>

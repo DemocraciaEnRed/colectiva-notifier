@@ -5,7 +5,7 @@ module.exports.headerStyle = {
 }
 
 module.exports.footerStyle = {
-  backgroundColor: '#5c98bd',
+  backgroundColor: '#2857e6',
   padding: '35px 80px 50px',
   color: '#fff'
 }
@@ -42,4 +42,8 @@ module.exports.defaultContentStyle = {
 
 module.exports.itemStyle = {
   paddingBottom: '10px'
+}
+
+module.exports.linkFooterStyle = {
+  color: '#FFFFFF'
 }

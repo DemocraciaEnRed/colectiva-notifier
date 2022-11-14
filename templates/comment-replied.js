@@ -9,12 +9,12 @@ const { ORGANIZATION_NAME, ORGANIZATION_URL, ORGANIZATION_API_URL } = process.en
 
 const CommentRead = (props) => {
   return (
-    <Email title='Comentario resuelto' style={{ width: '100%', maxWidth: '700px' }}>
+    <Email title='Respuesta a comentario' style={{ width: '100%', maxWidth: '700px' }}>
       <MailHeader />
       <Content name={props.author.name} style={{ width: '100%' }}>
         <Item style={Style.itemStyle}>
           <Span {...Style.defaultContentStyle}>
-            El/la diputado/a respondió a su comentario en el proyecto <b>{props.document.title}</b> en <A href={`${ORGANIZATION_URL}/propuesta?id=${props.document.id}`}>{ORGANIZATION_NAME}</A>
+            La persona creadora del proyecto <b>{props.document.title}</b> en <A href={`${ORGANIZATION_URL}/propuesta?id=${props.document.id}`}>{ORGANIZATION_NAME}</A> ha respondido su comentario.
           </Span>
         </Item>
         <Item style={Style.itemStyle}>

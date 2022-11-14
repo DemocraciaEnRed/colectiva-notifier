@@ -15,7 +15,7 @@ const DocumentPublished = (props) => {
 
         <Item style={Style.itemStyle}>
           <Span {...Style.defaultContentStyle}>
-            Se ha publicado el proyecto <b>{props.document.title}</b> de <b>{props.document.author}</b> en el <A href={`${ORGANIZATION_URL}/propuesta?id=${props.document.id}`}>{ORGANIZATION_NAME}</A>.
+            Se ha publicado el proyecto <b>{props.document.title}</b> en <A href={`${ORGANIZATION_URL}/propuesta?id=${props.document.id}`}>{ORGANIZATION_NAME}</A>.
           </Span>
         </Item>
 
